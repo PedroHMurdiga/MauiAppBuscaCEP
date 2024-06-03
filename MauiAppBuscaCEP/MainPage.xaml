@@ -7,12 +7,12 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Button Text="Get Bairros" Clicked="Button_Clicked_1" />
+            <Button Text="Get Bairros" BackgroundColor="#5fa8d3" Clicked="Button_Clicked_1" />
 
 
             <StackLayout Orientation="Horizontal">
                 <Entry x:Name="txt_cep" HorizontalOptions="FillAndExpand" />
-                <Button Text="Buscar" Clicked="Button_Clicked" />
+                <Button Text="Buscar" BackgroundColor="#5fa8d3" Clicked="Button_Clicked" />
             </StackLayout>
 
             <Grid RowDefinitions="*, *, *, *, *, *, *, *, *, *" ColumnDefinitions="*, 2*">

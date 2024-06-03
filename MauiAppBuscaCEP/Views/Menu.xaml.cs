@@ -17,4 +17,9 @@ public partial class Menu : ContentPage
         Navigation.PushAsync(new MainPage());
 
     }
+
+    private void Button_Clicked_2(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Views.BairrosPorCidade());
+    }
 }
